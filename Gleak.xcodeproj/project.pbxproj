@@ -9,13 +9,22 @@
 /* Begin PBXBuildFile section */
 		70CB7A54274B9157003707EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CB7A53274B9157003707EA /* AppDelegate.swift */; };
 		70CB7A56274B9157003707EA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CB7A55274B9157003707EA /* SceneDelegate.swift */; };
-		70CB7A58274B9157003707EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CB7A57274B9157003707EA /* ViewController.swift */; };
-		70CB7A5B274B9157003707EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70CB7A59274B9157003707EA /* Main.storyboard */; };
 		70CB7A5D274B9159003707EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70CB7A5C274B9159003707EA /* Assets.xcassets */; };
-		70CB7A60274B9159003707EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70CB7A5E274B9159003707EA /* LaunchScreen.storyboard */; };
 		70CB7A6B274B9159003707EA /* GleakTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CB7A6A274B9159003707EA /* GleakTests.swift */; };
 		70CB7A75274B915A003707EA /* GleakUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CB7A74274B915A003707EA /* GleakUITests.swift */; };
 		70CB7A77274B915A003707EA /* GleakUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CB7A76274B915A003707EA /* GleakUITestsLaunchTests.swift */; };
+		70CB7AB0274B9317003707EA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CB7AAE274B9317003707EA /* HomeViewController.swift */; };
+		70CB7AB1274B9317003707EA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CB7AAE274B9317003707EA /* HomeViewController.swift */; };
+		70CB7AB2274B9317003707EA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CB7AAE274B9317003707EA /* HomeViewController.swift */; };
+		70CB7AB3274B9317003707EA /* ConnectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CB7AAF274B9317003707EA /* ConnectViewController.swift */; };
+		70CB7AB4274B9317003707EA /* ConnectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CB7AAF274B9317003707EA /* ConnectViewController.swift */; };
+		70CB7AB5274B9317003707EA /* ConnectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CB7AAF274B9317003707EA /* ConnectViewController.swift */; };
+		70CB7AC8274B9487003707EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70CB7AC4274B9487003707EA /* Main.storyboard */; };
+		70CB7AC9274B9487003707EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70CB7AC4274B9487003707EA /* Main.storyboard */; };
+		70CB7ACA274B9487003707EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70CB7AC4274B9487003707EA /* Main.storyboard */; };
+		70CB7ACB274B9487003707EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70CB7AC6274B9487003707EA /* LaunchScreen.storyboard */; };
+		70CB7ACC274B9487003707EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70CB7AC6274B9487003707EA /* LaunchScreen.storyboard */; };
+		70CB7ACD274B9487003707EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70CB7AC6274B9487003707EA /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,16 +48,17 @@
 		70CB7A50274B9157003707EA /* Gleak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gleak.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70CB7A53274B9157003707EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		70CB7A55274B9157003707EA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		70CB7A57274B9157003707EA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		70CB7A5A274B9157003707EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		70CB7A5C274B9159003707EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		70CB7A5F274B9159003707EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		70CB7A61274B9159003707EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		70CB7A66274B9159003707EA /* GleakTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GleakTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		70CB7A6A274B9159003707EA /* GleakTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GleakTests.swift; sourceTree = "<group>"; };
 		70CB7A70274B915A003707EA /* GleakUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GleakUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		70CB7A74274B915A003707EA /* GleakUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GleakUITests.swift; sourceTree = "<group>"; };
 		70CB7A76274B915A003707EA /* GleakUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GleakUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		70CB7AAE274B9317003707EA /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = "../../../Gleak-app 2/Gleaky/HomeViewController.swift"; sourceTree = "<group>"; };
+		70CB7AAF274B9317003707EA /* ConnectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConnectViewController.swift; path = "../../../Gleak-app 2/Gleaky/ConnectViewController.swift"; sourceTree = "<group>"; };
+		70CB7AC5274B9487003707EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../../../Gleak-app 3/Gleaky/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
+		70CB7AC7274B9487003707EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../../../Gleak-app 3/Gleaky/Base.lproj/LaunchScreen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +111,11 @@
 			children = (
 				70CB7A53274B9157003707EA /* AppDelegate.swift */,
 				70CB7A55274B9157003707EA /* SceneDelegate.swift */,
-				70CB7A57274B9157003707EA /* ViewController.swift */,
-				70CB7A59274B9157003707EA /* Main.storyboard */,
+				70CB7AC6274B9487003707EA /* LaunchScreen.storyboard */,
+				70CB7AC4274B9487003707EA /* Main.storyboard */,
+				70CB7AAF274B9317003707EA /* ConnectViewController.swift */,
+				70CB7AAE274B9317003707EA /* HomeViewController.swift */,
 				70CB7A5C274B9159003707EA /* Assets.xcassets */,
-				70CB7A5E274B9159003707EA /* LaunchScreen.storyboard */,
 				70CB7A61274B9159003707EA /* Info.plist */,
 			);
 			path = Gleak;
@@ -231,9 +242,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				70CB7A60274B9159003707EA /* LaunchScreen.storyboard in Resources */,
 				70CB7A5D274B9159003707EA /* Assets.xcassets in Resources */,
-				70CB7A5B274B9157003707EA /* Main.storyboard in Resources */,
+				70CB7ACB274B9487003707EA /* LaunchScreen.storyboard in Resources */,
+				70CB7AC8274B9487003707EA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +252,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70CB7AC9274B9487003707EA /* Main.storyboard in Resources */,
+				70CB7ACC274B9487003707EA /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,6 +261,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70CB7ACA274B9487003707EA /* Main.storyboard in Resources */,
+				70CB7ACD274B9487003707EA /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +273,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				70CB7A58274B9157003707EA /* ViewController.swift in Sources */,
+				70CB7AB3274B9317003707EA /* ConnectViewController.swift in Sources */,
 				70CB7A54274B9157003707EA /* AppDelegate.swift in Sources */,
 				70CB7A56274B9157003707EA /* SceneDelegate.swift in Sources */,
+				70CB7AB0274B9317003707EA /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +285,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				70CB7A6B274B9159003707EA /* GleakTests.swift in Sources */,
+				70CB7AB1274B9317003707EA /* HomeViewController.swift in Sources */,
+				70CB7AB4274B9317003707EA /* ConnectViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +294,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70CB7AB5274B9317003707EA /* ConnectViewController.swift in Sources */,
 				70CB7A75274B915A003707EA /* GleakUITests.swift in Sources */,
 				70CB7A77274B915A003707EA /* GleakUITestsLaunchTests.swift in Sources */,
+				70CB7AB2274B9317003707EA /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,18 +317,18 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		70CB7A59274B9157003707EA /* Main.storyboard */ = {
+		70CB7AC4274B9487003707EA /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				70CB7A5A274B9157003707EA /* Base */,
+				70CB7AC5274B9487003707EA /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		70CB7A5E274B9159003707EA /* LaunchScreen.storyboard */ = {
+		70CB7AC6274B9487003707EA /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				70CB7A5F274B9159003707EA /* Base */,
+				70CB7AC7274B9487003707EA /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
