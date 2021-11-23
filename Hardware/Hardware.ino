@@ -9,7 +9,8 @@ const int buzzer = 2; // D4
 const int smokeD = A0;
 const int resetBtn = 4;
 
-int sensorThres = 150;
+int sensorThres = 400;
+int minPublishTime = 15000;
 bool portalRunning = false;
 
 WiFiManager wm;
@@ -65,6 +66,9 @@ void gleakify() {
   {
     if(!gleak.putServerIsAlerting(false)) digitalWrite(buzzer, LOW);
   }
+
+  gleak.publishValue(analogSensor);
+  
 }
 
 void loop() {

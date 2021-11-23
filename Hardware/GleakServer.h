@@ -5,8 +5,8 @@
 
 class GleakServer  {
   public:
-    bool getServerIsAlerting();
     bool putServerIsAlerting(bool val);
+    void publishValue(int val);
     bool getIsFirst() {
       return _isFirst;
     }
@@ -15,24 +15,12 @@ class GleakServer  {
     }
 
   private :
+    const int minPublishDiff = 50;
     bool _isFirst = true;
     bool _isAlerting = false;
+    int _lastPublishedValue = -50;
 };
 
-bool GleakServer :: getServerIsAlerting() {
-  HTTPClient http;
-  WiFiClientSecure  wifi;
-  wifi.setInsecure();
-  
-  if (http.begin(wifi, FIREBASE_URL)) {
-    int httpCode = http.GET();
-    String pay = http.getString();
-    _isAlerting = pay == "true";
-    Serial.println("GET " + String(FIREBASE_URL) + " : " + String(httpCode) + "\nPayload: " + String(pay));
-    http.end();
-  }
-  return _isAlerting;
-}
 
 bool GleakServer :: putServerIsAlerting(bool val) {
   HTTPClient http;
@@ -57,4 +45,31 @@ bool GleakServer :: putServerIsAlerting(bool val) {
     http.end();
   }
   return _isAlerting;
+}
+
+void GleakServer :: publishValue(int val) {
+
+  if (abs(val - _lastPublishedValue) < minPublishDiff) {
+    return;
+  }
+  
+  HTTPClient http;
+  WiFiClientSecure  wifi;
+  wifi.setInsecure();
+  
+  if (http.begin(wifi, FIREBASE_PUBLISH_URL)) {
+    http.addHeader("Content-Type", "application/json");
+    int httpCode = http.PUT(String(val));
+    Serial.println("PUT " + String(FIREBASE_PUBLISH_URL ) + " : " + String(httpCode));
+    
+    if (httpCode >= 200 && httpCode < 400) {
+      String pay = http.getString();
+      Serial.println("Payload: " + String(pay) + "\nVal: "  + val);
+      _lastPublishedValue = val;
+    }else {
+      Serial.printf("Error: %s\n", http.errorToString(httpCode).c_str());
+    }
+    
+    http.end();
+  }
 }
