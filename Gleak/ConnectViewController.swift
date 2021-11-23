@@ -11,6 +11,8 @@ import FirebaseDatabase
 
 class ConnectViewController: UIViewController {
     
+    @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
+    @IBOutlet weak var connectButton: UIButton!
     @IBOutlet weak var textField: UITextField!
     
     let ref = Database.database().reference()
@@ -18,11 +20,18 @@ class ConnectViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.navigationController?.isNavigationBarHidden = true
+        activityIndicator.isHidden = true
     }
     
     @IBAction func connectTapped(_ sender: UIButton) {
+        connectButton.isEnabled = false
+        activityIndicator.isHidden = false
+        activityIndicator.startAnimating()
         if textField.text == "" {
             alertMessage(title: "Serial Number is empty!", message: "Type in your serial number to connect.")
+            connectButton.isEnabled = true
+            activityIndicator.stopAnimating()
+            activityIndicator.isHidden = true
         } else {
             if let scode = textField.text {
                 checkForSerialNumber(code: scode)
@@ -44,10 +53,12 @@ class ConnectViewController: UIViewController {
             print(error!.localizedDescription)
             return;
           }
-          print(snapshot)
             if !snapshot.exists() {
                 self.alertMessage(title: "Oops! Invalid Serial Code", message: "The code you are typing does not exist.")
             } else {
+                self.activityIndicator.stopAnimating()
+                self.activityIndicator.isHidden = true
+                self.connectButton.isEnabled = true
                 self.performSegue(withIdentifier: "connectToHome", sender: self)
             }
         });

@@ -30,6 +30,10 @@
 		70CBEBF8274CE2D10024F4CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70CBEBF6274CE2D00024F4CA /* LaunchScreen.storyboard */; };
 		70CBEBF9274CE2D10024F4CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70CBEBF6274CE2D00024F4CA /* LaunchScreen.storyboard */; };
 		70CBEBFA274CE2D10024F4CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70CBEBF6274CE2D00024F4CA /* LaunchScreen.storyboard */; };
+		70CBEBFC274CF1EE0024F4CA /* gleakInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CBEBFB274CF1EE0024F4CA /* gleakInformation.swift */; };
+		70CBEBFD274CF1EE0024F4CA /* gleakInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CBEBFB274CF1EE0024F4CA /* gleakInformation.swift */; };
+		70CBEBFE274CF1EE0024F4CA /* gleakInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CBEBFB274CF1EE0024F4CA /* gleakInformation.swift */; };
+		70CBEC00274D08440024F4CA /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CBEBFF274D08430024F4CA /* Notification.swift */; };
 		A6032B16A735AED02BA0D4D6 /* Pods_GleakTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF03B9C9EFB66B48328D4FA6 /* Pods_GleakTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -69,6 +73,8 @@
 		70CB7ACE274B96C0003707EA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		70CBEBF2274CE2C30024F4CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		70CBEBF7274CE2D00024F4CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		70CBEBFB274CF1EE0024F4CA /* gleakInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gleakInformation.swift; sourceTree = "<group>"; };
+		70CBEBFF274D08430024F4CA /* Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
 		7D044B14F1566762AC090B99 /* Pods-Gleak-GleakUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gleak-GleakUITests.debug.xcconfig"; path = "Target Support Files/Pods-Gleak-GleakUITests/Pods-Gleak-GleakUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		ACA247A2B54A5EBCEA9E13E5 /* Pods-GleakTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GleakTests.release.xcconfig"; path = "Target Support Files/Pods-GleakTests/Pods-GleakTests.release.xcconfig"; sourceTree = "<group>"; };
 		D929A902339EA7E7C3D8D470 /* Pods_Gleak.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gleak.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -132,6 +138,8 @@
 			children = (
 				70CB7A53274B9157003707EA /* AppDelegate.swift */,
 				70CB7A55274B9157003707EA /* SceneDelegate.swift */,
+				70CBEBFB274CF1EE0024F4CA /* gleakInformation.swift */,
+				70CBEBFF274D08430024F4CA /* Notification.swift */,
 				70CBEBF6274CE2D00024F4CA /* LaunchScreen.storyboard */,
 				70CBEBF1274CE2C30024F4CA /* Main.storyboard */,
 				70CB7AAF274B9317003707EA /* ConnectViewController.swift */,
@@ -431,7 +439,9 @@
 			files = (
 				70CB7AB3274B9317003707EA /* ConnectViewController.swift in Sources */,
 				70CB7A54274B9157003707EA /* AppDelegate.swift in Sources */,
+				70CBEC00274D08440024F4CA /* Notification.swift in Sources */,
 				70CB7A56274B9157003707EA /* SceneDelegate.swift in Sources */,
+				70CBEBFC274CF1EE0024F4CA /* gleakInformation.swift in Sources */,
 				70CB7AB0274B9317003707EA /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -443,6 +453,7 @@
 				70CB7A6B274B9159003707EA /* GleakTests.swift in Sources */,
 				70CB7AB1274B9317003707EA /* HomeViewController.swift in Sources */,
 				70CB7AB4274B9317003707EA /* ConnectViewController.swift in Sources */,
+				70CBEBFD274CF1EE0024F4CA /* gleakInformation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -453,6 +464,7 @@
 				70CB7AB5274B9317003707EA /* ConnectViewController.swift in Sources */,
 				70CB7A75274B915A003707EA /* GleakUITests.swift in Sources */,
 				70CB7A77274B915A003707EA /* GleakUITestsLaunchTests.swift in Sources */,
+				70CBEBFE274CF1EE0024F4CA /* gleakInformation.swift in Sources */,
 				70CB7AB2274B9317003707EA /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -629,7 +641,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = swams.Gleak;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swams.Gleak;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -658,7 +670,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = swams.Gleak;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swams.Gleak;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

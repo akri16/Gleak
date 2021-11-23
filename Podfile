@@ -8,7 +8,8 @@ target 'Gleak' do
   # Pods for Gleak
   pod 'Firebase/Auth'
   pod 'Firebase/Firestore'
-  pod ‘Firebase/Database'
+  pod 'Firebase/Database'
+  pod 'SwiftyJSON'
 
   target 'GleakTests' do
     inherit! :search_paths
