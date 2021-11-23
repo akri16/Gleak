@@ -9,7 +9,7 @@
     - [ ] LED indicators (Optional)
     - [ ] Dynamic Threshold from RTD (Optional)
 - [ ] iOS app 
-    - [ ] Connect to RTD
+    - [x] Connect to RTD
     - [ ] Register for push notification 
     - [ ] Change threshold from app (Optional)
 - [ ] Server
