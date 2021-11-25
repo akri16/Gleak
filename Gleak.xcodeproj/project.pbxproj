@@ -9,6 +9,15 @@
 /* Begin PBXBuildFile section */
 		130546ED0A9D1453382B1D25 /* Pods_Gleak.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D929A902339EA7E7C3D8D470 /* Pods_Gleak.framework */; };
 		22AB7A6114EB8C4AAE98EEE5 /* Pods_Gleak_GleakUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03BEB53C9A32F2D37771DC58 /* Pods_Gleak_GleakUITests.framework */; };
+		70CAE3B8274F6F5500BBD1B3 /* NotifTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CAE3B6274F6F5500BBD1B3 /* NotifTableViewCell.swift */; };
+		70CAE3B9274F6F5500BBD1B3 /* NotifTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CAE3B6274F6F5500BBD1B3 /* NotifTableViewCell.swift */; };
+		70CAE3BA274F6F5500BBD1B3 /* NotifTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CAE3B6274F6F5500BBD1B3 /* NotifTableViewCell.swift */; };
+		70CAE3BB274F6F5500BBD1B3 /* NotifTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 70CAE3B7274F6F5500BBD1B3 /* NotifTableViewCell.xib */; };
+		70CAE3BC274F6F5500BBD1B3 /* NotifTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 70CAE3B7274F6F5500BBD1B3 /* NotifTableViewCell.xib */; };
+		70CAE3BD274F6F5500BBD1B3 /* NotifTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 70CAE3B7274F6F5500BBD1B3 /* NotifTableViewCell.xib */; };
+		70CAE3BF274F72DD00BBD1B3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70CAE3BE274F72DD00BBD1B3 /* GoogleService-Info.plist */; };
+		70CAE3C0274F72DD00BBD1B3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70CAE3BE274F72DD00BBD1B3 /* GoogleService-Info.plist */; };
+		70CAE3C1274F72DD00BBD1B3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70CAE3BE274F72DD00BBD1B3 /* GoogleService-Info.plist */; };
 		70CB7A54274B9157003707EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CB7A53274B9157003707EA /* AppDelegate.swift */; };
 		70CB7A56274B9157003707EA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CB7A55274B9157003707EA /* SceneDelegate.swift */; };
 		70CB7A5D274B9159003707EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70CB7A5C274B9159003707EA /* Assets.xcassets */; };
@@ -21,9 +30,6 @@
 		70CB7AB3274B9317003707EA /* ConnectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CB7AAF274B9317003707EA /* ConnectViewController.swift */; };
 		70CB7AB4274B9317003707EA /* ConnectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CB7AAF274B9317003707EA /* ConnectViewController.swift */; };
 		70CB7AB5274B9317003707EA /* ConnectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CB7AAF274B9317003707EA /* ConnectViewController.swift */; };
-		70CB7ACF274B96C0003707EA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70CB7ACE274B96C0003707EA /* GoogleService-Info.plist */; };
-		70CB7AD0274B96C1003707EA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70CB7ACE274B96C0003707EA /* GoogleService-Info.plist */; };
-		70CB7AD1274B96C1003707EA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70CB7ACE274B96C0003707EA /* GoogleService-Info.plist */; };
 		70CBEBF3274CE2C30024F4CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70CBEBF1274CE2C30024F4CA /* Main.storyboard */; };
 		70CBEBF4274CE2C30024F4CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70CBEBF1274CE2C30024F4CA /* Main.storyboard */; };
 		70CBEBF5274CE2C30024F4CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70CBEBF1274CE2C30024F4CA /* Main.storyboard */; };
@@ -34,6 +40,7 @@
 		70CBEBFD274CF1EE0024F4CA /* gleakInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CBEBFB274CF1EE0024F4CA /* gleakInformation.swift */; };
 		70CBEBFE274CF1EE0024F4CA /* gleakInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CBEBFB274CF1EE0024F4CA /* gleakInformation.swift */; };
 		70CBEC00274D08440024F4CA /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CBEBFF274D08430024F4CA /* Notification.swift */; };
+		70E9AC85274E325100B16DF0 /* PushNotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E9AC84274E325100B16DF0 /* PushNotificationManager.swift */; };
 		A6032B16A735AED02BA0D4D6 /* Pods_GleakTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF03B9C9EFB66B48328D4FA6 /* Pods_GleakTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -58,6 +65,9 @@
 		03BEB53C9A32F2D37771DC58 /* Pods_Gleak_GleakUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gleak_GleakUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D43196D7650AEF4645F1265 /* Pods-Gleak.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gleak.release.xcconfig"; path = "Target Support Files/Pods-Gleak/Pods-Gleak.release.xcconfig"; sourceTree = "<group>"; };
 		3F80A995ECEFC629A840C658 /* Pods-GleakTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GleakTests.debug.xcconfig"; path = "Target Support Files/Pods-GleakTests/Pods-GleakTests.debug.xcconfig"; sourceTree = "<group>"; };
+		70CAE3B6274F6F5500BBD1B3 /* NotifTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotifTableViewCell.swift; sourceTree = "<group>"; };
+		70CAE3B7274F6F5500BBD1B3 /* NotifTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NotifTableViewCell.xib; sourceTree = "<group>"; };
+		70CAE3BE274F72DD00BBD1B3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		70CB7A50274B9157003707EA /* Gleak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gleak.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70CB7A53274B9157003707EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		70CB7A55274B9157003707EA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -70,11 +80,12 @@
 		70CB7A76274B915A003707EA /* GleakUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GleakUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		70CB7AAE274B9317003707EA /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		70CB7AAF274B9317003707EA /* ConnectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectViewController.swift; sourceTree = "<group>"; };
-		70CB7ACE274B96C0003707EA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		70CBEBF2274CE2C30024F4CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		70CBEBF7274CE2D00024F4CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		70CBEBFB274CF1EE0024F4CA /* gleakInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gleakInformation.swift; sourceTree = "<group>"; };
 		70CBEBFF274D08430024F4CA /* Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
+		70E9AC83274E2BB000B16DF0 /* GleakRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GleakRelease.entitlements; sourceTree = "<group>"; };
+		70E9AC84274E325100B16DF0 /* PushNotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushNotificationManager.swift; sourceTree = "<group>"; };
 		7D044B14F1566762AC090B99 /* Pods-Gleak-GleakUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gleak-GleakUITests.debug.xcconfig"; path = "Target Support Files/Pods-Gleak-GleakUITests/Pods-Gleak-GleakUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		ACA247A2B54A5EBCEA9E13E5 /* Pods-GleakTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GleakTests.release.xcconfig"; path = "Target Support Files/Pods-GleakTests/Pods-GleakTests.release.xcconfig"; sourceTree = "<group>"; };
 		D929A902339EA7E7C3D8D470 /* Pods_Gleak.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gleak.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -111,6 +122,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		70CAE3B3274F6F1100BBD1B3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				70CBEBF6274CE2D00024F4CA /* LaunchScreen.storyboard */,
+				70CBEBF1274CE2C30024F4CA /* Main.storyboard */,
+				70CAE3B6274F6F5500BBD1B3 /* NotifTableViewCell.swift */,
+				70CAE3B7274F6F5500BBD1B3 /* NotifTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		70CAE3B4274F6F1D00BBD1B3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				70CBEBFB274CF1EE0024F4CA /* gleakInformation.swift */,
+				70CBEBFF274D08430024F4CA /* Notification.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		70CAE3B5274F6F2900BBD1B3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				70CB7AAF274B9317003707EA /* ConnectViewController.swift */,
+				70CB7AAE274B9317003707EA /* HomeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		70CB7A47274B9157003707EA = {
 			isa = PBXGroup;
 			children = (
@@ -136,17 +176,16 @@
 		70CB7A52274B9157003707EA /* Gleak */ = {
 			isa = PBXGroup;
 			children = (
+				70E9AC83274E2BB000B16DF0 /* GleakRelease.entitlements */,
 				70CB7A53274B9157003707EA /* AppDelegate.swift */,
 				70CB7A55274B9157003707EA /* SceneDelegate.swift */,
-				70CBEBFB274CF1EE0024F4CA /* gleakInformation.swift */,
-				70CBEBFF274D08430024F4CA /* Notification.swift */,
-				70CBEBF6274CE2D00024F4CA /* LaunchScreen.storyboard */,
-				70CBEBF1274CE2C30024F4CA /* Main.storyboard */,
-				70CB7AAF274B9317003707EA /* ConnectViewController.swift */,
-				70CB7AAE274B9317003707EA /* HomeViewController.swift */,
+				70CAE3B4274F6F1D00BBD1B3 /* Model */,
+				70CAE3B3274F6F1100BBD1B3 /* View */,
+				70CAE3B5274F6F2900BBD1B3 /* Controller */,
 				70CB7A5C274B9159003707EA /* Assets.xcassets */,
+				70CAE3BE274F72DD00BBD1B3 /* GoogleService-Info.plist */,
 				70CB7A61274B9159003707EA /* Info.plist */,
-				70CB7ACE274B96C0003707EA /* GoogleService-Info.plist */,
+				70E9AC84274E325100B16DF0 /* PushNotificationManager.swift */,
 			);
 			path = Gleak;
 			sourceTree = "<group>";
@@ -301,9 +340,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				70CBEBF3274CE2C30024F4CA /* Main.storyboard in Resources */,
+				70CAE3BB274F6F5500BBD1B3 /* NotifTableViewCell.xib in Resources */,
 				70CBEBF8274CE2D10024F4CA /* LaunchScreen.storyboard in Resources */,
 				70CB7A5D274B9159003707EA /* Assets.xcassets in Resources */,
-				70CB7ACF274B96C0003707EA /* GoogleService-Info.plist in Resources */,
+				70CAE3BF274F72DD00BBD1B3 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,7 +352,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				70CBEBF9274CE2D10024F4CA /* LaunchScreen.storyboard in Resources */,
-				70CB7AD0274B96C1003707EA /* GoogleService-Info.plist in Resources */,
+				70CAE3C0274F72DD00BBD1B3 /* GoogleService-Info.plist in Resources */,
+				70CAE3BC274F6F5500BBD1B3 /* NotifTableViewCell.xib in Resources */,
 				70CBEBF4274CE2C30024F4CA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -322,7 +363,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				70CBEBFA274CE2D10024F4CA /* LaunchScreen.storyboard in Resources */,
-				70CB7AD1274B96C1003707EA /* GoogleService-Info.plist in Resources */,
+				70CAE3C1274F72DD00BBD1B3 /* GoogleService-Info.plist in Resources */,
+				70CAE3BD274F6F5500BBD1B3 /* NotifTableViewCell.xib in Resources */,
 				70CBEBF5274CE2C30024F4CA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,11 +479,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70E9AC85274E325100B16DF0 /* PushNotificationManager.swift in Sources */,
 				70CB7AB3274B9317003707EA /* ConnectViewController.swift in Sources */,
 				70CB7A54274B9157003707EA /* AppDelegate.swift in Sources */,
 				70CBEC00274D08440024F4CA /* Notification.swift in Sources */,
 				70CB7A56274B9157003707EA /* SceneDelegate.swift in Sources */,
 				70CBEBFC274CF1EE0024F4CA /* gleakInformation.swift in Sources */,
+				70CAE3B8274F6F5500BBD1B3 /* NotifTableViewCell.swift in Sources */,
 				70CB7AB0274B9317003707EA /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -452,6 +496,7 @@
 			files = (
 				70CB7A6B274B9159003707EA /* GleakTests.swift in Sources */,
 				70CB7AB1274B9317003707EA /* HomeViewController.swift in Sources */,
+				70CAE3B9274F6F5500BBD1B3 /* NotifTableViewCell.swift in Sources */,
 				70CB7AB4274B9317003707EA /* ConnectViewController.swift in Sources */,
 				70CBEBFD274CF1EE0024F4CA /* gleakInformation.swift in Sources */,
 			);
@@ -461,6 +506,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70CAE3BA274F6F5500BBD1B3 /* NotifTableViewCell.swift in Sources */,
 				70CB7AB5274B9317003707EA /* ConnectViewController.swift in Sources */,
 				70CB7A75274B915A003707EA /* GleakUITests.swift in Sources */,
 				70CB7A77274B915A003707EA /* GleakUITestsLaunchTests.swift in Sources */,
@@ -641,7 +687,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.swams.Gleak;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swams.gleak;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -655,6 +701,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Gleak/GleakRelease.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = C35DR2MHM7;
@@ -670,7 +717,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.swams.Gleak;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swams.gleak;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
