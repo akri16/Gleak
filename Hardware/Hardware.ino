@@ -9,7 +9,7 @@ const int buzzer = 2; // D4
 const int smokeD = A0;
 const int resetBtn = 4;
 
-int sensorThres = 400;
+int sensorThres = 440;
 int minPublishTime = 15000;
 bool portalRunning = false;
 
@@ -61,6 +61,7 @@ void gleakify() {
   if (analogSensor >= sensorThres && (gleak.getIsFirst() || !gleak.getIsAlerting()))
   {
     if (gleak.putServerIsAlerting(true)) digitalWrite(buzzer, HIGH);
+    
   }
   else if (analogSensor < sensorThres && (gleak.getIsFirst() || gleak.getIsAlerting()))
   {

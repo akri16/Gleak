@@ -15,17 +15,16 @@ class GleakServer  {
     }
 
   private :
-    const int minPublishDiff = 50;
+    const int minPublishDiff = 5;
     bool _isFirst = true;
     bool _isAlerting = false;
-    int _lastPublishedValue = -50;
+    int _lastPublishedValue = -5;
 };
 
 
 bool GleakServer :: putServerIsAlerting(bool val) {
-  HTTPClient http;
-  WiFiClientSecure  wifi;
-  wifi.setInsecure();
+   WiFiClient wifi;
+   HTTPClient http;
   
   if (http.begin(wifi, FIREBASE_URL)) {
     String body = val ? "true" : "false";
@@ -53,9 +52,8 @@ void GleakServer :: publishValue(int val) {
     return;
   }
   
+   WiFiClient wifi;
   HTTPClient http;
-  WiFiClientSecure  wifi;
-  wifi.setInsecure();
   
   if (http.begin(wifi, FIREBASE_PUBLISH_URL)) {
     http.addHeader("Content-Type", "application/json");
