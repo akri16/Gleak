@@ -79,6 +79,20 @@ To avoid such situations, a considerable amount of effort has been devoted to th
 
 ```
 
+## Application
+
+Our implementation has various applications. Some of them include:
+
+- This implementation can be used to detect leakage of gas from cylinders and also notify the user via the mobile app
+- This can be used by domestic households who can keep a check on their houses when out. This is particularly helpful for working families.
+- This can also be used at hotels or places where gas is consumed on a large scale
+- This can also be used by factories storing gas or inflammable materials 
+
+
+## Conclusion
+
+In this system, we have described a new approach for the gas leakage detection system. In this system, we have used the MQ-2 sensor which is used to build an LPG Leakage Detector using a NodeMCU (ESP8266). Also, the ESP8266 has been programmed in such a way so as to communicate between the gas sensor and Firebase Realtime Database (RTD). A quick response rate is provided by this system. The advantage of this project is that it is easy to use and is a lot less expensive than any other alternatives. With the help of this system, the critical situations can be solved quickly over the manual methods which require a large amount of time
+
 ## Todo
 
 - [ ] Hardware
@@ -132,21 +146,7 @@ Swamita Gupta
 </td>
 
 </tr>
-  </table>
-
-## Application
-
-Our implementation has various applications. Some of them include:
-
-- This implementation can be used to detect leakage of gas from cylinders and also notify the user via the mobile app
-- This can be used by domestic households who can keep a check on their houses when out. This is particularly helpful for working families.
-- This can also be used at hotels or places where gas is consumed on a large scale
-- This can also be used by factories storing gas or inflammable materials 
-
-
-## Conclusion
-
-In this system, we have described a new approach for the gas leakage detection system. In this system, we have used the MQ-2 sensor which is used to build an LPG Leakage Detector using a NodeMCU (ESP8266). Also, the ESP8266 has been programmed in such a way so as to communicate between the gas sensor and Firebase Realtime Database (RTD). A quick response rate is provided by this system. The advantage of this project is that it is easy to use and is a lot less expensive than any other alternatives. With the help of this system, the critical situations can be solved quickly over the manual methods which require a large amount of time. 
+  </table> 
 
 
 ## License
