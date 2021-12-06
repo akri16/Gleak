@@ -12,6 +12,7 @@
     - [x] Connect to RTD
     - [ ] Register for push notification 
     - [ ] Change threshold from app (Optional)
-- [ ] Server
-  - [ ] Create cloud function to send push notification when RTD value changes from low -> high
+- [x] Server
+  - [x] Create a backend to send push notification when RTD value changes from low -> high
 - [ ] Build Android App (Optional)
+
